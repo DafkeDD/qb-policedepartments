@@ -2,6 +2,7 @@
  
 ## These resources will not work out of the box, I do not plan to maintain this repository or give support.
 
+```lua
 -- LEO
 ['lspd'] = {
     label = 'LSPD',
@@ -91,3 +92,4 @@ PlayerData.metadata['certificates'] = PlayerData.metadata['certificates'] or {
 ['fed_briefcase'] 		 	 	 = {['name'] = "fed_briefcase", 				['label'] = "Briefcase", 				['weight'] = 1000, 		['type'] = "item", 		['image'] = "securitycase.png", 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,     ['combinable'] = nil,    ['description'] = "A briefcase filled with money.."},
 ['pd_breachingcharge'] 		 	 = {['name'] = "pd_breachingcharge", 			['label'] = "Breaching Charge", 		['weight'] = 4000, 		['type'] = "item", 		['image'] = "pd_breachingcharge.png", 	['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,     ['combinable'] = nil,   ['created'] = nil,	['decay'] = 7.0, ['description'] = "This should blast any door open.."},
 ['pd_spikestrip'] 		 		 = {['name'] = "pd_spikestrip", 				['label'] = "Spike Strips", 			['weight'] = 4000, 		['type'] = "item", 		['image'] = "pd_spikestrip.png", 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,     ['combinable'] = nil,   ['created'] = nil,	['decay'] = 28.0, ['description'] = "Abuse these and I will remove them -lh34"},
+```
